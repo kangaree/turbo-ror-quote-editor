@@ -1,24 +1,54 @@
-# README
+# Quote editor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a single-page, reactive quote editor made with only a single line of 
+custom JavaScript.
 
-Things you may want to cover:
+I'm following the [Turbo Rails Tutorial](https://www.hotrails.dev/).
 
-* Ruby version
+It's been a bit since I've worked with Rails closely. 
 
-* System dependencies
+Rails is a joy to work with and convention over configuration means you build fast.
+Combined with the SPA features of Turbo, I think I'll try building with this
+framework more often!
 
-* Configuration
+## Setup
 
-* Database creation
+Clone the repository
 
-* Database initialization
+```
+git git@github.com:kangaree/turbo-ror-quote-editor.git
+cd turbo-ror-quote-editor
+```
 
-* How to run the test suite
+First, install the gems required by the application:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ bundle install
+```
 
-* Deployment instructions
+Initialize the database
 
-* ...
+```
+$ bin/setup
+```
+
+Start rails server
+
+```
+$ bin/dev
+```
+
+Start Redis server
+
+```
+$ redis-server
+```
+
+You can find your app now by pointing your browser to http://localhost:3000.
+
+Run Test
+
+```
+$ bin/rails test:system
+```
+
