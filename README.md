@@ -16,7 +16,7 @@ framework more often!
 Clone the repository
 
 ```
-git git@github.com:kangaree/turbo-ror-quote-editor.git
+git clone git@github.com:kangaree/turbo-ror-quote-editor.git
 cd turbo-ror-quote-editor
 ```
 
