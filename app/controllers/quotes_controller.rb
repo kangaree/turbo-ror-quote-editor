@@ -50,18 +50,11 @@ class QuotesController < ApplicationController
   end
 
   private
-
   def set_quote
-    @quote = Quote.find(params[:id])
+    @quote = current_company.quotes.find(params[:id])
   end
 
   def quote_params
     params.require(:quote).permit(:name)
-  end
-
-  private
-  
-  def set_quote
-    @quote = current_company.quotes.find(params[:id])
   end
 end
