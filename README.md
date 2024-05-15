@@ -1,15 +1,10 @@
 # Quote editor
+[Live Demo](https://turbo-quote-editor.fly.dev/)
 
 This is a single-page, reactive quote editor made with only a single line of 
-custom JavaScript.
+custom JavaScript (for message animations).
 
-I'm following the [Turbo Rails Tutorial](https://www.hotrails.dev/).
-
-It's been a bit since I've worked with Rails closely. 
-
-Rails is a joy to work with and convention over configuration means you build fast.
-Combined with the SPA features of Turbo, I think I'll try building with this
-framework more often!
+I followed the [Turbo Rails Tutorial](https://www.hotrails.dev/).
 
 ## Setup
 
