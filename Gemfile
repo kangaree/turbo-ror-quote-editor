@@ -77,3 +77,7 @@ end
 gem "simple_form", "~> 5.1.0"
 
 gem "devise", "~> 4.8.1"
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "redis", "~> 5.2"
