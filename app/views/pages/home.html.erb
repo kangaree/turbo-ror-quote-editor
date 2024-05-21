@@ -5,7 +5,7 @@
   <% if user_signed_in? %>
     <%= link_to "View quotes", quotes_path, class: "btn btn--dark" %>
   <% else %>
-    <p>To get started, login with the email <em>"gary@gary.com"</em> and use the password <em>"password"</em>.</p>
-    <%= link_to "Sign in", new_user_session_path, class: "btn btn--dark" %>
+    <%= pb_rails("button", props: { text: "Login", aria: { label: "Link to Login" }, tag: "a", link: new_user_session_path }) %>
+    <%= pb_rails("button", props: { text: "Sign up", variant: "secondary", aria: { label: "Link to Sign Up" }, tag: "a", link: new_user_registration_path }) %>
   <% end %>
 </main>

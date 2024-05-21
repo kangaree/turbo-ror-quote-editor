@@ -5,6 +5,7 @@
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.4",
     "esbuild": "^0.21.1",
+    "playbook-ui": "^13.27.0",
     "sass": "^1.77.1"
   },
   "scripts": {
